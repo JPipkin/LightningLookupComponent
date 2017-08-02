@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+	<types>
+		<members>LightningLookupController</members>
+        <members>LightningLookupControllerTest</members>
+		<name>ApexClass</name>
+	</types>
+    <types>
+		<members>LightningLookup</members>
+        <members>EvtChangeLookup</members>
+        <members>EvtClearLookup</members>
+        <members>EvtInitLookup</members>
+        <members>CmpPills</members>
+		<name>AuraDefinitionBundle</name>
+	</types>
+    <types>
+		<members>jQuery_LookupCmp</members>
+		<name>StaticResource</name>
+	</types>
+	<version>38.0</version>
+</Package>
