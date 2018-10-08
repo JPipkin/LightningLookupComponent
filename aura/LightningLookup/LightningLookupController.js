@@ -68,6 +68,7 @@ IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 		}
 	},
 	hover : function(component, event, helper){
-		$('#lookup-65 ul li').removeClass('hlight')
+		var cmpTarget = component.find('#lookup-65 ul li');
+		$A.util.removeClass(cmpTarget, 'hlight');
 	}
 })
